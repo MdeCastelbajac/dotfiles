@@ -1,0 +1,40 @@
+
+
+
+
+snippet newdoc "template" bA
+\documentclass{$1}
+
+\usepackage{$2}
+
+\author{$3}
+\date{$4}
+\title{$5}
+
+\begin{document}
+\maketitle
+$0
+\end{document}
+endsnippet
+
+
+
+snippet sub "subsection{}"
+\subsection{$1}$0
+endsnippet
+
+snippet sec "section{}"
+\section{$1}$0
+endsnippet
+
+snippet bol "Bold"
+\bold{$1} $0
+endsnippet
+
+snippet beg "begin{}/ end{}" bA
+\begin{$1}
+$0
+\end{$1}
+endsnippet
+
+

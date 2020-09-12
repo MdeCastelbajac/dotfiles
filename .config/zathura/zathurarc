@@ -1,0 +1,7 @@
+set guioptions none
+set font "Inconsolata bold 15"
+set default-bg "#1B182C"
+set default-fg "#CBE3E7"
+set recolor true
+set recolor-lightcolor "#1B182C"
+set recolor-darkcolor "#CBE3E7"
